@@ -67,7 +67,13 @@ Kotlin 2.4, Jetpack Compose + Material 3, Hilt (KSP), Retrofit + OkHttp + kotlin
 
 ## Build and run
 
-Requirements: Android Studio with JDK 17, Android SDK platform 37 (compileSdk), an emulator or device on Android 7.0+ (minSdk 24) with internet access.
+**Branch:** the code is on `feature/Shelfie-001/browse_setup` (open PR into `main`). `main` only holds the initial template, so clone the feature branch:
+
+```bash
+git clone -b feature/Shelfie-001/browse_setup https://github.com/arsenic20/Shelfie.git
+```
+
+Requirements: Android Studio with JDK 17, **Android SDK platform 37** (install it in Android Studio: Settings > Android SDK; the build fails on SDK 36.x), an emulator or device on Android 7.0+ (minSdk 24) with internet access.
 
 ```bash
 # Build and install on a running emulator/device
